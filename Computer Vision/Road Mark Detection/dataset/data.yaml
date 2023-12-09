@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['BUS LANE', 'Jeltaya razmetka', 'Liniya 1', 'Liniya 2', 'Perehod', 'Romb', 'SLOW', 'Strelka vlevo', 'Strelka vpered', 'Strelka vpered - vlevo', 'Strelka vpered - vpravo', 'Strelka vpravo', 'Velosiped']
+
+roboflow:
+  workspace: lr-tdx
+  project: road-mark
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lr-tdx/road-mark/dataset/3
